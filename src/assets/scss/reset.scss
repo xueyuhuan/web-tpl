@@ -1,0 +1,44 @@
+/*
+*重置样式表*
+*/
+html{
+  height: 100%;
+  box-sizing: border-box;
+  scroll-behavior:smooth
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+  height: 100%;
+  font-size: 14px;
+  font-family: "Microsoft YaHei","Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  scroll-behavior:smooth
+}
+input,button,select,textarea{outline:none;}
+ul,li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+em,i{
+  font-style: normal;
+}
+//element
+.el-collapse-item__header{
+  background: #14151b;
+  color: #fff;
+}
+.el-collapse-item__wrap{
+  background: #14151b;
+  p{
+    color: #ccc;
+  }
+}
